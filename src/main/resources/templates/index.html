@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>GitHub User Search</title>
+</head>
+<body>
+    <h1>Search for a GitHub User</h1>
+    <form th:action="@{/search}" method="get">
+        <input type="text" name="username" placeholder="Enter GitHub username">
+        <button type="submit">Search</button>
+    </form>
+</body>
+</html>

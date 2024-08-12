@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>GitHub User Details</title>
+</head>
+<body>
+<h1>GitHub User Details</h1>
+<div>
+    <img th:src="${user.avatarUrl}" alt="User Avatar" width="150" height="150">
+    <p>Username: <span th:text="${user.login}"></span></p>
+    <p>Name: <span th:text="${user.name}"></span></p>
+    <p>Location: <span th:text="${user.location}"></span></p>
+    <p>Company: <span th:text="${user.company}"></span></p>
+    <p>Web: <a th:href="${user.blog}" target="_blank"><span th:text="${user.blog}"></span></a></p>
+    <p>Bio: <span th:text="${user.bio}"></span></p>
+    <p>Followers: <span th:text="${user.followers}"></span></p>
+    <p>Following: <span th:text="${user.following}"></span></p>
+    <p>Public Repos: <span th:text="${user.publicRepos}"></span></p>
+    <p>Created at: <span th:text="${user.createdAt}"></span></p>
+    <a th:href="${user.htmlUrl}" target="_blank">View GitHub Profile</a>
+    <br>
+    <a href="/">Back to Search</a>
+</div>
+</body>
+</html>

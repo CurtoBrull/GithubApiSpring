@@ -4,6 +4,8 @@
 
 La **GitHub User Activity App** es una aplicación web desarrollada con Spring Boot que permite buscar y visualizar información detallada sobre los usuarios de GitHub. Utilizando la API pública de GitHub, esta aplicación proporciona detalles como el nombre, ubicación, biografía, número de seguidores, repositorios públicos y más.
 
+Está alojada en Render y es accesible públicamente en la siguiente URL: [https://githubapispring.onrender.com/](https://githubapispring.onrender.com/)
+
 ## Características
 
 - Búsqueda de usuarios por nombre de usuario de GitHub.
@@ -40,12 +42,11 @@ La **GitHub User Activity App** es una aplicación web desarrollada con Spring B
 1. **Clona el repositorio:**
 
    ```bash
-   git clone https://github.com/tu-usuario/github-user-activity-app.git
-   cd github-user-activity-app
+   git clone https://github.com/CurtoBrull/GithubApiSpring
 
 2. **Configura las propiedades de la aplicación:**
 
-    Si necesitas configurar alguna variable específica, edita el archivo: 
+   Si necesitas configurar alguna variable específica, edita el archivo:
     ```bash
     src/main/resources/application.properties.
 
@@ -59,21 +60,17 @@ La **GitHub User Activity App** es una aplicación web desarrollada con Spring B
 
    Abre un navegador web y accede a la URL: [http://localhost:8080](http://localhost:8080)
 
-## Despliegue en Railway
+## Despliegue en Render
 
-La aplicación está desplegada en Railway y es accesible públicamente en la siguiente URL:
+La aplicación está desplegada en Render y es accesible públicamente en la siguiente URL:
 
-[https://githubapispring-production.up.railway.app/](https://githubapispring-production.up.railway.app/)
+[https://githubapispring.onrender.com/](https://githubapispring.onrender.com/)
 
 Railway se encarga de asignar el puerto automáticamente y proporciona una URL pública para acceder a la aplicación.
 
-## Configuración en Railway
-
-- Variables de Entorno: No es necesario configurar manualmente el puerto, ya que Railway asigna uno automáticamente.
-Puedes configurar otras variables necesarias en el dashboard de Railway.
 ## Uso
-  
-1. Visita la URL de la aplicación. [https://githubapispring-production.up.railway.app/](https://githubapispring-production.up.railway.app/)
+
+1. Visita la URL de la aplicación. [https://githubapispring.onrender.com/](https://githubapispring.onrender.com/)
 2. Introduce un nombre de usuario de GitHub en el campo de búsqueda.
 3. Haz clic en "Buscar" para obtener los detalles del usuario.
 4. Visualiza la información y haz clic en el enlace para ver el perfil completo en GitHub.
@@ -88,7 +85,7 @@ Las contribuciones son bienvenidas. Por favor, sigue los siguientes pasos:
 4. Push de la rama (git push origin feature/nueva-feature).
 5. Abre un Pull Request.
 
-## Autor: 
+## Autor:
 ### **Javier Curto Brull**
 
 
